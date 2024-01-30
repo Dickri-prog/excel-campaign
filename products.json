@@ -1,0 +1,162 @@
+{
+  "template": [
+  {
+		"id": 1,
+		"name": "Polos Anak"
+	},
+	{
+		"id": 2,
+		"name": "Salur Anak"
+	},
+	{
+		"id": 3,
+		"name": "Celana Anak"
+	}
+  ],
+  "template_detail": [
+    {
+	      "id": 1,
+	      "data_id": 1,
+	      "name": "ukuran s",
+	      "attribute": {
+	        "Nama Produk": "KAOS POLOS ANAK LENGAN PENDEK COTTON COMBED 30S BAJU KAOS KIDS UMUR 0- 12 TAHUN",
+	        "Nama Variasi": ",s"
+	      },
+	     "content": {
+	        "Harga Diskon": "15900"
+				}
+	   },
+	    {
+	      "id": 2,
+	      "data_id": 1,
+	      "name": "ukuran m",
+	      "attribute": {
+	        "Nama Produk": "KAOS POLOS ANAK LENGAN PENDEK COTTON COMBED 30S BAJU KAOS KIDS UMUR 0- 12 TAHUN",
+	        "Nama Variasi": ",m"
+	      },
+	     "content": {
+	        "Harga Diskon": "17900"
+				}
+	   },
+	    {
+	      "id": 3,
+	      "data_id": 1,
+	      "name": "ukuran l",
+	      "attribute": {
+	        "Nama Produk": "KAOS POLOS ANAK LENGAN PENDEK COTTON COMBED 30S BAJU KAOS KIDS UMUR 0- 12 TAHUN",
+	        "Nama Variasi": ",l"
+	      },
+	     "content": {
+	        "Harga Diskon": "19900"
+				}
+	   },
+	    {
+	      "id": 4,
+	      "data_id": 1,
+	      "name": "ukuran xl",
+	      "attribute": {
+	        "Nama Produk": "KAOS POLOS ANAK LENGAN PENDEK COTTON COMBED 30S BAJU KAOS KIDS UMUR 0- 12 TAHUN",
+	        "Nama Variasi": ",xl"
+	      },
+	     "content": {
+	        "Harga Diskon": "24900"
+				}
+	   },
+	    {
+	      "id": 5,
+	      "data_id": 2,
+	      "name": "ukuran s",
+	      "attribute": {
+	        "Nama Produk": "KAOS ANAK LAKI LAKI SAKU KEREN",
+	        "Nama Variasi": ",s"
+	      },
+	     "content": {
+	        "Harga Diskon": "17500"
+				}
+	   },
+	    {
+	      "id": 6,
+	      "data_id": 3,
+	      "name": "ukuran s",
+	      "attribute": {
+	        "Nama Produk": "CELANA PENDEK ANAK BAHAN LEMBUT KATUN COMBED 30S USIA 0-12 TAHUN",
+	        "Nama Variasi": ",s"
+	      },
+	     "content": {
+	        "Harga Diskon": "13900"
+				}
+	   },
+	    {
+	      "id": 7,
+	      "data_id": 3,
+	      "attribute": {
+	        "Nama Produk": "CELANA PENDEK ANAK BAHAN LEMBUT KATUN COMBED 30S USIA 0-12 TAHUN",
+	        "Nama Variasi": ",m"
+	      },
+	      "content": {
+	        "Harga Diskon": "15900"
+	      },
+	      "name": "ukuran m"
+	    },
+	    {
+	      "id": 8,
+	      "data_id": 3,
+	      "attribute": {
+	        "Nama Produk": "CELANA PENDEK ANAK BAHAN LEMBUT KATUN COMBED 30S USIA 0-12 TAHUN",
+	        "Nama Variasi": ",l"
+	      },
+	      "content": {
+	        "Harga Diskon": "17900"
+	      },
+	      "name": "ukuran l"
+	    },
+	    {
+	      "id": 9,
+	      "data_id": 2,
+	      "attribute": {
+	        "Nama Produk": "KAOS ANAK LAKI LAKI SAKU KEREN",
+	        "Nama Variasi": ",m"
+	      },
+	      "content": {
+	        "Harga Diskon": "19500"
+	      },
+	      "name": "ukuran m"
+	    },
+	    {
+	      "id": 10,
+	      "data_id": 2,
+	      "attribute": {
+	        "Nama Produk": "KAOS ANAK LAKI LAKI SAKU KEREN",
+	        "Nama Variasi": ",l"
+	      },
+	      "content": {
+	        "Harga Diskon": "21500"
+	      },
+	      "name": "ukuran l"
+	    },
+	    {
+	      "id": 11,
+	      "data_id": 2,
+	      "attribute": {
+	        "Nama Produk": "KAOS ANAK LAKI LAKI SAKU KEREN",
+	        "Nama Variasi": ",xl"
+	      },
+	      "content": {
+	        "Harga Diskon": "25500"
+	      },
+	      "name": "ukuran xl"
+	    },
+	    {
+	      "id": 12,
+	      "data_id": 3,
+	      "attribute": {
+	        "Nama Produk": "CELANA PENDEK ANAK BAHAN LEMBUT KATUN COMBED 30S USIA 0-12 TAHUN",
+	        "Nama Variasi": ",xl"
+	      },
+	      "content": {
+	        "Harga Diskon": "21900"
+	      },
+	      "name": "ukuran xl"
+	    }
+  ]
+}
