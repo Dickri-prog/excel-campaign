@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Data Table </title>
+    <meta content="" name="description">
+    <meta content="Author" name="MJ Maraz">
+    <link href="public/images/favicon.png" rel="icon">
+    <link href="public/images/favicon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- ========================================================= -->
+
+
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/datatables.min.css">
+
+    <link rel="stylesheet" href="public/dataTables/datatables.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" /> -->
+    <link rel="stylesheet" href="public/css/style.css">
+
+    <script src="public/js/library/elements.js"></script>
+    <script src="public/js/library/inputElement.js"></script>
+    <script src="public/js/library/massEdit.js"></script>
+    <script src="public/js/library/template.js"></script>
+    <script src="public/js/dataSectionFunctions.js"></script>
+    <script src="public/js/functions.js"></script>
+</head>
+<!-- =============== Design & Develop By = MJ MARAZ   ====================== -->
+
+<body>
+    <header class="header_part">
+        <img src="public/images/logo.png" alt="" class="img-fluid">
+        <h4>Excel Campaign</h4>
+    </header>
+    <!-- =======  Data-Table  = Start  ========================== -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <section id="fileUploaderInput">
+            <h1>File Upload</h1>
+
+            <div class="error">
+              <h4 id="error" style="color: red"></h4>
+            </div>
+
+              <input type="file" id="inpFile">
+              <button type="submit" id="btnUpload">Upload!</button>
+              <p id="loading">Loading...</p>
+              <p id="process"></p>
+
+
+          </section>
+        </div>
+      </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="data_table">
+                    <table id="example" class="table table-striped table-bordered">
+                        <thead class="table-dark">
+
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12" style="margin: 50px, 0;">
+            <!-- Modal -->
+            <div class="modal" style="margin: 60px 0; height: 90% !important;" tabindex="-1" role="dialog" id="editorModal">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+
+                  </div>
+                  <div class="modal-footer p-4">
+                    <div class="messages position-absolute start-0 ms-3 fw-bold fs-5">
+                    </div>
+                    <button type="button" id="saveBtn" class="btn btn-primary p-1">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- =======  Data-Table  = End  ===================== -->
+    <!-- ============ Java Script Files  ================== -->
+
+
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/jquery-3.6.0.min.js"></script>
+    <script src="public/js/datatables.min.js"></script>
+    <script src="public/js/pdfmake.min.js"></script>
+    <script src="public/js/vfs_fonts.js"></script>
+    <script src="public/js/custom.js"></script>
+    <script type="text/javascript">
+    window.addEventListener('beforeunload', function (e) {
+          // Standard-compliant browsers
+          var confirmationMessage = 'Are you sure you want to leave this page?';
+
+
+          // For legacy browsers
+          (e || window.event).returnValue = confirmationMessage;
+          return confirmationMessage;
+      });
+    </script>
+</body>
+
+</html>
